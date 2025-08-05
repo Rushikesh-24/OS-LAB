@@ -14,6 +14,7 @@ do
     done
     if ((is_prime == 1))
     then
+        echo "$i is a prime number."
         sum=$((sum + i))
     fi
 done

@@ -43,5 +43,25 @@ int main(){
     avg_turnaround_time /= n;
     cout<<"Average Waiting Time: "<<avg_waiting_time<<"\n";
     cout<<"Average Turnaround Time: "<<avg_turnaround_time<<"\n";
+    cout << "\n Gantt Chart: \n";
+    int current_time = max(process[0].arrival_time, 0);
+    cout << " ";
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < process[i].burst_time; j++) {
+            cout << process[i].name[0];
+        }
+        cout << " ";
+    }
+    cout << "\n";
+    int time = max(process[0].arrival_time, 0);
+    cout << time;
+    for (int i = 0; i < n; i++) {
+        int next_time = max(time, process[i].arrival_time) + process[i].burst_time;
+        int spaces = process[i].burst_time - 2;
+        if (spaces < 0) spaces = 0;
+        cout << string(spaces, ' ') << " " << next_time;
+        time = next_time;
+    }
+    cout << "\n";
     return 0;
 }

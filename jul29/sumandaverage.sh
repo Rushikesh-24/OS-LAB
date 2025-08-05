@@ -1,4 +1,3 @@
-
 read -p "Enter the number of elements: " n
 sum=0
 
@@ -9,7 +8,7 @@ do
     sum=$((sum + num))
 done
 
-average=$(echo " $sum / $n" | bc)
+average=$(echo "scale=2; $sum / $n" | bc)
 
 echo "Sum = $sum"
 echo "Average = $average"
