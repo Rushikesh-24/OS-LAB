@@ -1,0 +1,61 @@
+Script started on Tue Jul 22 09:45:04 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004httouch hello.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccat >> hello.txt[1m [0m[0m [?2004l
+helo   l owlrd      o wolrd   rld^D^[[C    ^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccp hello.txt[1m [0m[0m hi.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccat hi.txt[1m [0m[0m [?2004l
+hello world[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccat >> h
+[Jhello.txt  hi.txt[A[0m[27m[24m[8Ccat >> h[Kello.txt[8Di.txt   [?2004l
+[Jhi wolrd   rd ld
+^D[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccomm 
+[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Ccomm[K[1Chello.txt 
+[J[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Ccomm hello.txt[K[1Chello.txt[8Di.txt   [?2004l
+[Jhello world
+	hello worldhi world
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hddiff 
+[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Cdiff[K[1Chello.txt 
+[J[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Cdiff hello.txt[K[1Chello.txt[8Di.txt   [?2004l
+[J1c1
+< hello world
+\ No newline at end of file
+---
+> hello worldhi world
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccmp 
+[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Ccmp[K[1Chello.txt 
+[J[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Ccmp hello.txt[K[1Chello.txt[8Di.txt   [?2004l
+[Jcmp: EOF on hello.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hmmv h
+[Jhello.txt  hi.txt[A[0m[27m[24m[8Cmv h[Kello.txt[?2004l
+[Jusage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004h        [8Dm
+zsh: do you wish to see all 107 possibilities (12 lines)? n[J[A[0m[27m[24m[8Cm[Kmv 
+[J[Jhello.txt   hi.txt      typescript[A[0m[27m[24m[8Cmv[K[1Ch
+[J[Jhello.txt  hi.txt[A[0m[27m[24m[8Cmv h[Kello.txt hi ello    r  rem name d .txt[?2004l
+[J[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hwwc renamed.txt[1m [0m[0m [?2004l
+       0       2      11 renamed.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hrrm hi.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hlls -l renamed.txt[1m [0m[0m [?2004l
+-rw-r--r--  1 rushikeshgaonkar  staff  11 22 Jul 09:45 renamed.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hcchmod g+  u+r  -x  w w u+x    renamed.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hlls -l rw enamed.txt[1m [0m[0m [?2004l
+-r--r--r--  1 rushikeshgaonkar  staff  11 22 Jul 09:45 renamed.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hcchmod g+rx    g+rx    u+x renamed.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hcchmod u g+x renamed.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hccho mod o+w renamed.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hlls = -l 
+[Jrenamed.txt*  typescript[A[0m[27m[24m[8Cls -l[K[1Crenamed.txt[?2004l
+[J-r-xr-xrw-  1 rushikeshgaonkar  staff  11 22 Jul 09:45 renamed.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hcchmod 645 renamed.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004hlls -l[?2004l
+total 32
+-rw-r--r-x  1 rushikeshgaonkar  staff    11 22 Jul 09:45 renamed.txt
+-rw-r--r--  1 rushikeshgaonkar  staff  9195 22 Jul 09:58 typescript
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                ]7;file://Rushikeshs-MacBook-Air.local/Users/rushikeshgaonkar/Documents/GitHub/oslab/jul22[0m[27m[24m[Jjul22 % [K[?2004h[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue Jul 22 09:59:46 2025
