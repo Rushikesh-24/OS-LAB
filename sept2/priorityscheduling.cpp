@@ -13,7 +13,6 @@ struct Process {
     int wt;       // waiting time
 };
 
-// Comparator for sorting processes by arrival time first
 bool arrivalCompare(Process a, Process b) {
     return a.at < b.at;
 }
@@ -40,7 +39,6 @@ int main() {
         int idx = -1;
         int highestPriority = 1e9;
 
-        // Pick process with highest priority among arrived ones
         for (int i = 0; i < n; i++) {
             if (!done[i] && p[i].at <= time) {
                 if (p[i].priority < highestPriority) {
@@ -51,7 +49,7 @@ int main() {
         }
 
         if (idx == -1) {
-            time++; // CPU idle
+            time++; 
         } else {
             time += p[idx].bt;
             p[idx].ct = time;
@@ -74,14 +72,12 @@ int main() {
 
     cout << "\nAverage TAT = " << (totalTAT / n);
     cout << "\nAverage WT = " << (totalWT / n) << endl;
-    // Build Gantt Chart data
     vector<string> ganttProc;
     vector<int> ganttTime;
     int currTime = 0;
     int lastTime = 0;
     int prevIdx = -1;
 
-    // Find first arrival time
     int firstArrival = p[0].at;
     currTime = firstArrival;
 
@@ -114,7 +110,6 @@ int main() {
         }
     }
 
-    // Compact Gantt Chart (merge consecutive same processes)
     vector<string> compactProc;
     vector<int> compactTime;
     if (!ganttProc.empty()) {
