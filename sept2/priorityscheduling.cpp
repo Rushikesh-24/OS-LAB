@@ -37,11 +37,11 @@ int main() {
 
     while (completed < n) {
         int idx = -1;
-        int highestPriority = 1e9;
+        int highestPriority = -1;
 
         for (int i = 0; i < n; i++) {
             if (!done[i] && p[i].at <= time) {
-                if (p[i].priority < highestPriority) {
+                if (p[i].priority > highestPriority) {
                     highestPriority = p[i].priority;
                     idx = i;
                 }
@@ -86,11 +86,11 @@ int main() {
 
     while (completedGantt < n) {
         int idx = -1;
-        int highestPriority = 1e9;
+        int highestPriority = -1;
 
         for (int i = 0; i < n; i++) {
             if (!doneGantt[i] && p[i].at <= currTime) {
-                if (p[i].priority < highestPriority) {
+                if (p[i].priority > highestPriority) {
                     highestPriority = p[i].priority;
                     idx = i;
                 }
